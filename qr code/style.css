@@ -1,0 +1,67 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    width: auto;
+    height: 900px;
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 320px;
+    height: 497px;
+    left: 581px;
+    top: 152px;
+    background: white;
+    border-radius: 20px;
+}
+.container{
+    width: 288px;
+    height: 288px;
+    left: 507px;
+    top: 168px;
+}
+.image_fond{
+    width: 288px;
+    height: 288px;
+    left: 597px;
+    top: 168px;
+    position: absolute;
+    top: 230px;
+    left: 795px;
+    z-index: 20;
+}
+.qr_code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    left: 661px;
+    top: 232px;
+    position: absolute;
+    top: 294px;
+    left: 859px;
+    z-index: 30;
+}
+.heading{
+    width: 288px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1F314F;
+}
+.paragraphe{
+    margin: auto;
+    width: 256px;
+    height: 57px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #7D889E;
+}
